@@ -1,0 +1,14 @@
+
+<div class="galerie-animata">
+    <div class="grid">
+        <% for(let im of locals.imaginiA){ %>
+            <figure class="animatie">
+                <picture>
+                    <source srcset="<%- im.mic %>" media="(max-width:800px)"/>
+                    <img src="<%- im.mare %>" alt="picture" style="width: 100%">
+                </picture>
+                <figcaption> <%- im.descriere %> </figcaption>
+            </figure>
+        <% } %>
+        </div>
+</div>

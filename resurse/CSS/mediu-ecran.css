@@ -1,0 +1,230 @@
+@import "peste-tot.css";
+
+/*GRID PRINCIPAL*/
+.principal
+{
+    display: grid;
+    width: 100%;
+    height: auto;
+
+    grid-template-areas: "prezentare  prezentare"
+                         "prezentare  prezentare"
+                         "calendar    tabel"
+                         "my-section  my-section"
+                         "my-section  my-section"
+                         "anunturi    site-server"
+                         "utilizatori statistici";
+
+    grid-template-rows: repeat(auto); 
+    grid-template-columns: repeat(auto);  
+}
+/*GRID PRINCIPAL*/
+
+/*GRID PREZENTARE*/
+
+.foggy
+{
+    display: inline-block;
+
+    text-align: center;
+    align-self: center;
+
+}
+
+.foggy>p
+{
+    padding: 3%;
+    margin: 0%;
+
+    color: white;
+    font-size: 3vw; 
+}
+
+.dream
+{
+    display: inline-block;
+
+    text-align: center;
+    align-self: center;
+}
+
+.dream>p
+{
+    padding: 3%;
+    margin: 0%;
+
+    font-size: 3vw;
+    color: white;
+    
+}
+/*GRID PREZENTARE*/
+
+/* Galerie statica*/
+.galerie
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+/* Galerie statica*/
+
+   /*IMAGINI DIN PREZENTARE */
+#foggy-pic
+{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#dream-pic
+{
+    width: 60%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+ /*IMAGINI DIN PREZENTARE */
+
+         /*TEXT*/
+h1
+{
+    font-size: 6vw;
+}
+
+h2
+{
+    font-size: 5vw;
+}
+
+p,ol>li,summary
+{
+    font-size: 3vw;
+}
+
+h3
+{
+    font-size: 4vw;
+}
+      /*TEXT*/
+
+       /*MENIU*/
+#meniuprincipal
+{
+    width: 100%;
+
+    padding: 0;
+    margin: 0;
+}
+
+.tot
+{
+    padding: 0;
+    display: flex;
+}
+
+.tot>li 
+{
+    flex-grow: 1;
+    flex-basis: 0;
+    
+    text-align:center;
+    cursor:pointer;
+}
+
+.tot li
+{
+    list-style: none;
+}
+
+.meniu>div, .meniu>div>a
+{
+    text-decoration: none;
+    color:var(--culoare-text);
+    font-size: 3vw;
+    text-align: center;
+}
+
+.meniu:hover .submeniu
+{
+    display: block;
+}
+
+.meniu div:hover
+{
+    box-shadow: 0 0 5px 5px var(--culoare-background) inset;
+}
+
+.submeniu
+{
+    position: absolute;
+    padding: 0;
+    display: none;
+
+    width: 33.3%;
+    outline: solid var(--culoare-background) 0.5px;
+    background-color: var(--culoare-highlight)
+}
+
+.submeniu a
+{
+    text-decoration: none;
+    color:var(--culoare-text);
+    font-size: 3vw;
+    text-align: center;
+}
+
+.submeniu li:hover
+{
+    box-shadow: 0 0 5px 5px var(--culoare-background) inset;
+}
+
+.home1
+{
+    display: none;
+}
+
+#hamburger
+{
+    display:none;
+}
+
+#check
+{
+    display: none;
+}
+    /*MENIU*/
+    
+    /*IFrame*/
+iframe
+{      
+    width: 95vw;
+    height: 60vw;
+    box-shadow: 0 0 1vw 0.1vw black;
+}
+
+.titluri-video a
+{
+    font-size: 2.2vw;
+
+    padding: 1%;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    box-shadow: 0 0 1vw 0.1vw black;
+}
+       /*IFrame*/
+
+    /*Tabel*/
+caption
+{
+    font-size: 3vw;
+}   
+
+tr, th, td
+{
+    font-size: 3vw;
+}
+    /*Tabel*/

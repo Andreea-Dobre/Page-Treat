@@ -1,0 +1,113 @@
+{
+    "cale_galerie":"resurse/pictures/galerie",
+    "imagini":[
+        {
+            "fisier":"1984.jpg",
+            "titlu":"1984",
+            "descriere":"1984 - George Orwell",
+            "sfert_ora":"1"
+        },
+        {
+            "fisier":"algernon.jpg",
+            "titlu":"Flowers",
+            "descriere":"Flowers for Algernon - Daniel Keyes",
+            "sfert_ora":"2"
+        },
+        {
+            "fisier":"allthelight.jpg",
+            "titlu":"All light",
+            "descriere":"All the light we cannot see - Anthony Doeer",
+            "sfert_ora":"3"
+        },
+        {
+            "fisier":"bookthief.jpeg",
+            "titlu":"The thief",
+            "descriere":"The book thief - Markus Zusak",
+            "sfert_ora":"4"
+        },
+        {
+            "fisier":"harry.jpg",
+            "titlu":"Harry Potter",
+            "descriere":"Harry Potter - J. K. Rowling",
+            "sfert_ora":"1"
+        },
+        {
+            "fisier":"lordoftherings.jpg",
+            "titlu":"Lord",
+            "descriere":"Lord of the rings - J. R. R. Tolkien",
+            "sfert_ora":"2"
+        },
+        {
+            "fisier":"mebeforeyou.jpg",
+            "titlu":"Me",
+            "descriere":"Me before you - Jojo Moyes",
+            "sfert_ora":"3"
+        },
+        {
+            "fisier":"origin.jpeg",
+            "titlu":"Origin",
+            "descriere":"Origin - Dan Brown",
+            "sfert_ora":"4"
+        },
+        {
+            "fisier":"shadowhunters.jpg",
+            "titlu":"Shadowhunters",
+            "descriere":"Shadowhunters series - Cassandra Clare",
+            "sfert_ora":"1"
+        },
+        {
+            "fisier":"lovecraft.jpg",
+            "titlu":"Fiction",
+            "descriere":"The complete fiction - H. P. Lovecraft",
+            "sfert_ora":"2"
+        },
+        {
+            "fisier":"alchimist.jpg",
+            "titlu":"The Alchemist",
+            "descriere":"The Alchemist - Paulo Coelho",
+            "sfert_ora":"3"
+        },
+        {
+            "fisier":"dracula.jpg",
+            "titlu":"Dracula",
+            "descriere":"Dracula - Bram Stoker",
+            "sfert_ora":"4"
+        },
+        {
+            "fisier":"day.jpg",
+            "titlu":"Every day",
+            "descriere":"Every day - David Levithan",
+            "sfert_ora":"1"
+        },
+        {
+            "fisier":"exploring.jpg",
+            "titlu":"Exploring the scientific method",
+            "descriere":"Exploring the scientific method - Steven Gimbel",
+            "sfert_ora":"2"
+        },
+        {
+            "fisier":"maze.jpg",
+            "titlu":"The maze runner",
+            "descriere":"The maze runner - James Dasshner",
+            "sfert_ora":"3"
+        },
+        {
+            "fisier":"nils.jpg",
+            "titlu":"Nils Holgersson`s wonderful journney through Sweden",
+            "descriere":"Nils Holgersson`s wonderful journney through Sweden - Selma Lagerlof",
+            "sfert_ora":"4"
+        },
+        {
+            "fisier":"time.jpg",
+            "titlu":"A brief history of time",
+            "descriere":"A brief history of time - Stephen Hawking",
+            "sfert_ora":"1"
+        },
+        {
+            "fisier":"treasure.jpg",
+            "titlu":"The treasure of the silver lake",
+            "descriere":"The treasure of the silver lake - Karl May",
+            "sfert_ora":"2"
+        }
+    ]
+}

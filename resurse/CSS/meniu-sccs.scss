@@ -1,0 +1,287 @@
+/*Meniu ecrann mare*/
+#meniuprincipal 
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: var(--culoare-highlight);
+	position: sticky;
+
+	>ul 
+	{
+		display: flex;
+	}
+
+	li 
+	{
+		flex-grow: 1;
+		list-style: none;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+.tot 
+{
+	padding: 0;
+}
+
+.meniu 
+{
+	>div 
+	{
+		text-decoration: none;
+		color: var(--culoare-text);
+		font-size: 2vw;
+		text-align: center;
+	}
+
+	&:hover 
+	{
+		.submeniu 
+		{
+			display: block;
+		}
+	}
+
+	div 
+	{
+		&:hover 
+		{
+			box-shadow: 0 0 5px 5px var(--culoare-background) inset;
+		}
+	}
+}
+
+.submeniu 
+{
+	position: absolute;
+	padding: 0;
+	display: none;
+	width: 33.3%;
+	outline: solid var(--culoare-background) 0.5px;
+	background-color: var(--culoare-highlight);
+	a 
+	{
+		text-decoration: none;
+		color: var(--culoare-text);
+		font-size: 2vw;
+		text-align: center;
+	}
+
+	li 
+	{
+		&:hover 
+		{
+			box-shadow: 0 0 5px 5px var(--culoare-background) inset;
+		}
+	}
+}
+
+.home2 
+{
+	display: none;
+}
+
+#hamburger 
+{
+	display: none;
+}
+
+#check 
+{
+	display: none;
+}
+
+
+/*Meniu ecran mendiu*/
+#meniuprincipal 
+{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	background-color: var(--culoare-highlight);
+	position: sticky;
+
+	>ul 
+	{
+		display: flex;
+	}
+
+	li 
+	{
+		flex-grow: 1;
+		list-style: none;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+.tot 
+{
+	padding: 0;
+}
+
+.meniu 
+{
+	>div 
+	{
+		text-decoration: none;
+		color: var(--culoare-text);
+		font-size: 3vw;
+		text-align: center;
+	}
+
+	&:hover 
+	{
+		.submeniu 
+		{
+			display: block;
+		}
+	}
+
+	div 
+	{
+		&:hover 
+		{
+			box-shadow: 0 0 5px 5px var(--culoare-background) inset;
+		}
+	}
+}
+
+.submeniu 
+{
+	position: absolute;
+	padding: 0;
+	display: none;
+	width: 33.3%;
+	outline: solid var(--culoare-background) 0.5px;
+	background-color: var(--culoare-highlight);
+
+	a 
+	{
+		text-decoration: none;
+		color: var(--culoare-text);
+		font-size: 3vw;
+		text-align: center;
+	}
+
+	li 
+	{
+		&:hover 
+		{
+			box-shadow: 0 0 5px 5px var(--culoare-background) inset;
+		}
+	}
+}
+
+.home1 
+{
+	display: none;
+}
+
+#hamburger 
+{
+	display: none;
+}
+
+#check 
+{
+	display: none;
+}
+
+
+/*Menniu ecran mic*/
+#hamburger 
+{
+	display: block;
+	padding-left: 3vw;
+}
+
+#meniuprincipal 
+{
+	>ul 
+	{
+		display: none;
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	width: 100%;
+	padding: 0;
+	background-color: var(--culoare-highlight);
+
+	li 
+	{
+		list-style: none;
+		text-align: center;
+		cursor: pointer;
+	}
+}
+
+#check 
+{
+	&:checked+.tot 
+	{
+		display: block;
+		background-color: var(--culoare-highlight);
+		padding: 0;
+	}
+}
+#home2 
+{
+	display: none;
+}
+
+.meniu 
+{
+	>div 
+	{
+		text-decoration: none;
+		color: var(--culoare-text);
+		font-size: 4.5vw;
+		text-align: center;
+	}
+
+	&:hover 
+	{
+		.submeniu 
+		{
+			display: flex;
+			flex-direction: column;
+		}
+	}
+
+	div 
+	{
+		&:hover 
+		{
+			box-shadow: 0 0 5px 5px var(--culoare-background) inset;
+		}
+	}
+}
+
+.submeniu 
+{
+	position: absolute;
+	display: none;
+	width: 100%;
+	background-color: var(--culoare-highlight);
+
+	a 
+	{
+		text-decoration: none;
+		color: var(--culoare-text);
+		font-size: 4.5vw;
+		text-align: center;
+	}
+
+	li 
+	{
+		&:hover 
+		{
+			box-shadow: 0 0 3px 3px var(--culoare-background) inset;
+		}
+	}
+}

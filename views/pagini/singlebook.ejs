@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <%- include("../fragmente/head") %>
+        <meta name="keywords" content="authors, e-books, deals">
+        <meta name="description" content="The page where you'll find your next favourite book, or rather e-book :)">
+
+        <title>E-treats</title>
+    </head>
+    
+    <body>
+        <%- include("../fragmente/header") %>
+
+        <main>
+            <section>
+
+                    <article class="book">
+                        <p class="titlu"><%- locals.carte.titlu %></p>
+                        <p class="descriere"><%- locals.carte.descriere %></p>
+                        <p class="pret"><%- locals.carte.pret %></p>
+                        <p class="gen"><%- locals.carte.gen %></p>
+                        <p class="editie"><%- locals.carte.editie%></p>
+                        <p class="numar_pagini"><%- locals.carte.numar_pagini %></p>
+                        <p class="data_publicare"><%- locals.carte.data_publicare %></p>
+                        <p class="tip_document"><%- locals.carte.tip_document %></p>
+                        <p class="sub_genuri"><%- locals.carte.sub_genuri %></p>
+                        <img class="imagine-book" src="/resurse/pictures/galerie/<%- locals.carte.imagine %>" alt="imagine">
+                    </article>
+
+            </section>
+        </main>
+        
+        <%- include("../fragmente/footer") %>
+    </body>
+
+</html>

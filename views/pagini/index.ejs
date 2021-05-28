@@ -1,0 +1,212 @@
+<!--Exercitiul 1-->
+<!DOCTYPE html>
+<html lang="en">
+<!--1-->
+    <head>
+        <%- include("../fragmente/head") %>
+        <meta name="keywords" content="book, author, e-book, reading, read">
+        <meta name="description" content="'If you don't like to read, you haven't found the right book'- J.K.Rowling">
+
+        <title>Page Treat</title>
+    </head>
+    
+    <body>
+        <%- include("../fragmente/header") %>
+        <main class="principal">
+
+            <section id = "prezentare">
+                <div class="foggy">
+                    <source media="(max-width: 1024px)" srcset="/resurse/pictures/foggy-medium.jpg">
+                    <source media="(max-width: 640px)" srcset="/resurse/pictures/foggy-small.jpg"> 
+                    <img id="foggy-pic" src="/resurse/pictures/foggy-big.jpg" alt="A foggy picture">
+                    <p> We are extremly excited to take you on a journey full of excitement, mistery and lots of new 
+                        experiences, that we are sure you are going to enjoy. This website has been designed to accomodate your needs 
+                        as a readers and we expect you to have a lot of fun,  but also inform us of any inconvenience you may encounter.
+                    </p>
+                </div> 
+                
+                <div class="dream">
+                    <p> Our aim with this website is to promote reading and we hope to achieve our goal of bringing more people
+                        in this evergrowing community of e-readers. In hopes that you will not forget about our little website we will 
+                        keep informing you about our newest aditions to our e-book family. Hope to see you soon enough so that you do not 
+                        miss anything.
+                    </p>
+                    <source media="(max-width: 1024px)" srcset="/resurse/pictures/dreams-medium.jpg">
+                    <source media="(max-width: 640px)" srcset="/resurse/pictures/dreams-small.jpg"> 
+                    <img id="dream-pic" src="/resurse/pictures/dreams-big.jpg" alt="A dreamy pictures">
+                </div> 
+            </section>
+
+            
+
+            <div class="my-section">
+                <!--Exercitiul 7-->
+                <section id = "info">
+                    <hr>
+                    <h2>About us</h2>
+                    <video id="library-video" controls poster="/resurse/video/poza-video.jpg" muted playsinline loop height="300" width="420" preload="auto"  >
+                        <source src="/resurse/Video/video1.mp4" type="video/mp4" >
+                        <source src="/resurse/Video/video1.ogv" type="video/ogv">
+                        <track default src="/resurse/video/ro.vtt" kind="captions" srclang="ro" label="romana">
+                        <track src="/resurse/video/en.vtt" kind="captions" srclang="en" label="english">
+                    </video>
+                    <p>
+                        <!--Exercitiul 10-->
+                        To be honest, we are pretty new in this field. Selling books and encouraging new and ambitious authors to
+                        let us help them on their journey of sharing <strong>stories</strong> that they worked on for so long, putting so much 
+                        effort in bringing them to life, is pretty terrifing.
+                        <br>
+                        It required a lot of patience and a lot of work, but we finally gathered all our will and made this website 
+                        a reality, so you can now enjoy an online library. 
+                        <br>
+                        You can sell your books here, or you can buy books, you can see our top picks every week and you can find 
+                        out what other readers like yourself enjoy reading.
+                        <br>
+                        The choice is yours, the stories are infinite and the fun neverending.
+                        <br>
+                        So stop doing what you're doing and start reading that book <i>you've been dieing to</i> read for so long!
+                        <br>
+                        And always remember what Ray Bradbury said: 
+                        <q>You don’t have to burn books to destroy a culture. Just get people to stop reading them.</q>
+                    </p>
+                </section>
+                
+
+                <%- include("../fragmente/galerieStatica") %>
+
+                <section id = "recommandations">
+
+                    <h2>Our recommandations</h2>
+                    <!--Exercitiul 8-->
+                    <ol>
+                        <li>'The book thief' - Markus Zusak </li>
+                        <li>'All the light we cannot see' - Anthony Doerr </li>
+                        <li>'To kill a mockingbird' - Harper Lee </li>
+                        <li>'Crime and puishment' - Fyodor Dostoevsky </li>
+                    </ol>
+                    <!--Exercitiul 11-->
+                    <h3>Reviews</h3>
+                    <section id = "review">
+                        <div class="titluri-video">
+                            <a class="primul-target" href="https://www.youtube.com/embed/CR7AKnH1tMY" target="Review"> The book thief </a>
+                            <a href="https://www.youtube.com/embed/sL4gXD_K8M0" target="Review"> All the light we cannot see </a>
+                            <a href="https://www.youtube.com/embed/B-xANFGX2MQ" target="Review"> To kill a mockingbird </a>
+                            <a href="https://www.youtube.com/embed/Vtkv3-endYc" target="Review"> Crime and puishment </a> 
+                        </div>
+                        <iframe src="https://www.youtube.com/embed/CR7AKnH1tMY" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen name="Review"></iframe>
+                    </section>
+                    <!--11-->
+
+                    <section>
+                        <p> 
+                            We think it is our duty to share the amazing books we have found with our fellow readears. 
+                            So you can find in the list above our top picks for this week. We hope you will enjoy <b>reading</b> these 
+                            books and come back next week for more recommandations.
+                            <br>
+                            Furthermore, we want to remind you that tea or coffee should always acompany a <b>good book</b>.
+                            <!--10-->
+                            <br> 
+                            So, sit on a comfortable chair, take one of these books, your beverage of choice and enjoy, trust us,
+                            life does not get any better than this.   
+                        </p>
+
+                        <p>
+                            A site for physical books that you might want to visit and that we recommand is:
+                            <!--Ex11--><br><a id="link-extern" href="https://www.cartepedia.ro/?click_code=51d82ce6d1c60bc71324653229aea8d1" target="_blank">Cartepedia</a>
+                        </p>
+                    </section>
+                    <!--8-->
+
+                </section>
+                <!--7-->
+
+                <!--Exercitiul 12-->
+                <section id = "treats">
+                    <h2>Monthly treats</h2>
+                    <p>Monthly treats is our way of making sure you get your monthly dose of books. Below you will find our special offers.</p>
+
+                    <details>
+                        <summary>Tier 1 - <b>Night owl</b> </summary>
+                        <p>Every month you will receive four books of your top rated genres, plus snippets of soon to be released books.</p>
+                    </details>
+
+                    <details>
+                        <summary>Tier 2 - <b>Word muncher</b> </summary>
+                        <p>Get everything from tier 1 and a little bonus of <b>two</b> extra books of your choosing each month.</p>
+                        <p>Wish I could read that much!</p>
+                    </details>
+
+                    <details>
+                        <summary>Tier 3 - <b>Book Thief</b> </summary>
+                        <p>So you decided that tier 2 is not enough, huh? Well there is this option where you get everything we have listed
+                            so far and bonus gifts like bookmarks, coffee mugs, night lights and more!
+                        </p>
+                    </details>
+                </section>
+                
+                <hr>
+            </div>
+
+            <div class= "tabel">
+                <table>
+                    <caption> To be published </caption>
+                    <thead>
+                        <tr class="rand-1">
+                            <th> Author </th>
+                            <th> Title </th>
+                            <th> Price </th> 
+                        </tr>
+                    </thead>
+                    
+                    <tbody>
+                        <tr class="rand-2">
+                            <td> James Patterson </td>
+                            <td> The Red Book </td>
+                            <td> 25$ </td>
+                        </tr>
+
+                        <tr class="rand-3">
+                            <td> Jen Calonita </td>
+                            <td> Go the Distance: A Twisted Tale </td>
+                            <td> 20$ </td>
+                        </tr>
+
+                        <tr class="rand-4">
+                            <td> Stephen King </td>
+                            <td> Later </td>
+                            <td> 30$ </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <section id = "calendar"> 
+                <p> Aici va sta calendarul </p>
+            </section>
+
+            <section id = "anunturi">
+                <p> Aici vor fi anunturile </p>
+            </section>
+
+            <section id = "site-server">
+                <p> Aici vor fi informatiile despre site si server </p>
+            </section>
+
+            <section id = "utilizatori">
+                <p> Aici va fi afisata lista cu utilizatorii online </p>
+            </section>
+
+            <section id = "statistici">
+                <p>IP-ul dumneavoastra este <%- userip %></p>
+            </section>
+
+            <div class="disclaimer"> <p>!!! This is a school project. It is not meant to be taken seriously !!!</p> </div>
+
+        </main>
+        
+        <p id="watermark"></p>
+        <%- include("../fragmente/footer") %>
+
+    </body>
+
+</html>

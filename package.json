@@ -1,0 +1,22 @@
+{
+  "name": "proiecttw",
+  "version": "1.0.0",
+  "description": "Librarie online Page Treat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "book",
+    "author",
+    "e-book"
+  ],
+  "author": "Andreea Dobre",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "pg": "^8.6.0",
+    "sharp": "^0.28.1"
+  }
+}

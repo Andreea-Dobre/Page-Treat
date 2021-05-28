@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <%- include("../fragmente/head") %>
+        <meta name="keywords" content="authors, e-books, deals">
+        <meta name="description" content="The page where you'll find your next favourite book, or rather e-book :)">
+
+        <title>E-treats</title>
+    </head>
+    
+    <body>
+        <%- include("../fragmente/header") %>
+
+        <main>
+            <section>
+                <h2>E-books</h2>
+                <% for(let book of locals.books) {%>
+                    <article class="book">
+                        <p class="titlu"><a href="/singlebook/<%- book.id %>"><span><%- book.titlu %></span></a></p>
+                        <p class="descriere"><span><%- book.descriere %></span></p>
+                        <p class="pret"><%- book.pret %></p>
+                        <p class="gen"><%- book.gen %></p>
+                        <img class="imagine-book" src="/resurse/pictures/galerie/<%- book.imagine %>" alt="imagine">
+                    </article>
+                <% } %>
+            </section>
+        </main>
+        
+        <%- include("../fragmente/footer") %>
+    </body>
+
+</html>

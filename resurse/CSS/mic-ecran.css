@@ -1,0 +1,234 @@
+@import "peste-tot.css";
+
+body
+{
+    padding: 1.5%;
+}
+
+/*GRID PRINCIPAL*/
+.principal
+{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+
+}
+/*GRID PRINCIPAL*/
+
+/*GRID PREZENTARE*/
+.foggy
+{
+    text-align: center;
+    align-self: center;
+}
+
+.foggy>p
+{
+    color: white;
+    font-size: 4vw; 
+}
+
+.dream
+{
+
+    text-align: center;
+    align-self: center;
+}
+
+.dream>p
+{
+    font-size: 4vw;
+    color: white; 
+}
+/*GRID PREZENTARE*/
+
+/* Galerie statica*/
+.galerie
+{
+    display: inline-block;
+}
+/* Galerie statica*/
+
+/*IMAGINI DIN PREZENTARE */
+#foggy-pic
+{
+    width: 100%;
+    height: auto;
+}
+
+#dream-pic
+{
+    width: 100%;
+    height: auto;
+}
+/*IMAGINI DIN PREZENTARE */
+
+/*TEXT*/
+h1
+{
+    font-size: 7vw;
+}
+
+h2
+{
+    font-size: 6.5vw;
+}
+
+p, ol>li,summary
+{
+    font-size: 4.5vw;
+}
+
+h3
+{
+    font-size: 5.5vw;
+}
+  /*TEXT*/
+
+       /*MENIU*/
+#hamburger
+{
+    display: block;
+    padding-left: 3vw;
+
+    background-color: var(--culoare-highlight);
+}
+
+#meniuprincipal>ul
+{
+    display:none;
+
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+#check:checked+.tot
+{
+    display: block;
+    background-color: var(--culoare-highlight);
+    padding: 0;
+
+    animation-name: animatie-meniu2;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animatie-meniu2
+{
+    0%
+    {
+        transform-origin: top left;
+        transform: scale(0,0);
+    }
+
+    100%
+    {
+        transform-origin: top left;
+        transform: scale(1,1);
+    }
+}
+
+#home2
+{
+    display: none;
+}
+
+#meniuprincipal
+{
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+}
+
+#meniuprincipal li 
+{
+	list-style: none;
+    text-align:center;
+    cursor:pointer;
+}
+
+.meniu>div
+{
+    text-decoration: none;
+    color:var(--culoare-text);
+    font-size: 4.5vw;
+    text-align: center;
+}
+
+.meniu:hover .submeniu
+{
+	display: flex;
+    flex-direction: column;
+}
+
+.meniu div:hover
+{
+    box-shadow: 0 0 3px 3px var(--culoare-background) inset;
+}
+
+.submeniu
+{
+    position: absolute;
+    display: none;
+    width: 100%;
+    background-color: var(--culoare-highlight)
+}
+
+.submeniu a
+{
+    text-decoration: none;
+    color:var(--culoare-text);
+    font-size: 4.5vw;
+    text-align: center;
+}
+
+.submeniu li:hover
+{
+    box-shadow: 0 0 3px 3px var(--culoare-background) inset;
+}
+    /*MENIU*/
+
+    /*IFrame*/
+iframe
+{      
+    width: 95vw;
+    height: 60vw;
+    box-shadow: 0 0 1vw 0.1vw black;
+}
+
+.titluri-video a
+{
+    font-size: 2.3vw;
+
+    padding: 1%;
+    margin: 0;
+
+    box-shadow: 0 0 1vw 0.1vw black;
+}
+        /*IFrame*/
+  
+    /*Tabel*/
+.tabel
+{
+    display:block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+caption
+{
+    font-size: 4.5vw;
+}    
+
+tr, th, td
+{
+    font-size: 4.5vw;
+}
+    /*Tabel*/
+
+
+
